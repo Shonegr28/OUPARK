@@ -1,0 +1,46 @@
+div{
+    flex: center;
+
+    width: 100%;
+    /* background: #333; background color of navbar */
+    color: #ffffff; /* button color */
+    padding: 7px 0; /* increase the size of the navbar */
+    position: fixed; /* it will be alway on the top of the page */ 
+    top: 1;
+    left: 0;
+    display: flex; /* it will align the logo side by side with text  */
+    justify-content: space-between; /* moves the text to the side  */
+    z-index: 10;
+
+}
+.logo{
+    margin:1px;
+    margin-left: 30px;
+
+
+    width: 10;
+    height: 40px;
+        margin-left: 50px;
+
+}
+ul{
+    display: inline-block;
+    margin: 15px;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    
+
+
+
+}
+.re{
+    display: inline-block; /* aligns the text side by side*/
+    list-style: none;
+    margin: 10px 20px; /* spacing between the text*/
+    font-size: 16px;
+    margin-right: 35px;
+    
+
+}

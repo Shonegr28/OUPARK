@@ -1,0 +1,40 @@
+.heee{
+    Background: linear-gradient(rgba(183,0,19,0.33), rgba(183,0,19,0.33)), url('../assets/aboutbg.jpg'); /* Gradient overlay */
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    margin-top: -21px;
+    justify-content: center;
+    color: #fff;
+}
+.About h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    text-align:center;
+    margin: 220px 100px;
+    font-size: 55px;
+    font-weight: 800;
+    text-shadow: 1px 1px 10px black;
+
+
+}
+.description{
+    justify-content: center;
+    margin: 570px 0px;
+    background-color: #B71313;
+         
+         padding-left: 900px;
+         padding:50px 50px;
+         
+
+}
+.description h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px; /* You can adjust the size as well */
+    color: white; /* Ensure the text color is visible */
+    max-width: 800px;
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(183,0,19,0.33), rgba(183,0,19,0.33)), url('../assets/hero.png'); /* Gradient overlay */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    margin-top: -21px;
+    justify-content: center;
+
+}
+
+.hero-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+    font-size: 55px;
+    font-weight: 800;
+    max-width: 520px;
+    margin-top: 170px;
+    margin-left: 450px;
+    text-shadow: 1px 1px 10px black;
+    line-height: .8;
+
+}
+
+
