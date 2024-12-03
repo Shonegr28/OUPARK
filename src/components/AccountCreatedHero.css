@@ -1,7 +1,7 @@
 /*This is where the page is built*/
 
 .heee{
-    Background: linear-gradient(rgba(183,0,19,0.33), rgba(183,0,19,0.33)), url('../assets/aboutbg.jpg'); /* Gradient overlay */
+    Background: linear-gradient(rgba(183,0,19,0.33), rgba(183,0,19,0.33)); /* Gradient overlay */
     width: 100%;
     min-height: 100vh;
     background-size: cover;
@@ -25,10 +25,10 @@
 }
 .map-page-redirect-button{
     justify-content: center;
-    margin: 570px 0px;
+    margin: 350px 0px;
     font-size: 35px;
     font-weight: 800;
-    background-color: #B71313;
+    background-color: #4e0a0a;
          
          padding-left: 900px;
          padding:50px 50px;

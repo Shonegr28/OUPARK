@@ -14,8 +14,8 @@ const AccountCreatedHero = () => {
 
 
         <div className='map-page-redirect-button'>
-          <Link to="/map">
-            <button>Go To Map Page</button>
+          <Link to="/login">
+            <button>Click Here To Go To The Login Page</button>
           </Link>
 
         </div>
