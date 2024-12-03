@@ -1,0 +1,47 @@
+
+
+.container {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+form {
+    display: flex;
+    flex-direction: column; /* Arrange elements vertically */
+    align-items: right; /* Center elements horizontally */
+    width: 400px; /* Set a fixed width */
+    height: 30; /* Set a fixed height */
+    padding: 50px; /* Add padding for better spacing */
+    border: 1px solid #ccc; /* Optional: Add a border */
+    border-radius: 40px; /* Optional: Add rounded corners */
+    background-color: white; /* Set the form background color to white */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+    gap: 5px;
+}
+
+input {
+    width: 100%; /* Make inputs full width within the form */
+    margin-bottom: 10px; /* Space between inputs */
+    padding: 10px; /* Add padding inside the input */
+    font-size: 16px; /* Adjust font size for input */
+    border: 1px solid #ccc; /* Add a border to inputs */
+    border-radius: 5px; /* Optional: Add rounded corners to inputs */
+}
+
+input::placeholder {
+    color: #888; /* Change placeholder text color */
+}
+
+button {
+    width: 100%; /* Make button full width */
+
+    padding: 50px; /* Add padding for button */
+    font-size: 18px; /* Adjust font size for button */
+    cursor: pointer;
+    background-color: #B71313; /* Set button background color */
+    color: white; /* Set button text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Optional: Add rounded corners to button */
+}
