@@ -16,6 +16,8 @@ const Hero = () => {
             
 
         </div>
+
+        <div className='copywright'><h2>&#169; 2024 OU Parking Spot Finder</h2></div>
       
     </div>
   )
