@@ -1,0 +1,45 @@
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(183,0,19,0.33), rgba(183,0,19,0.33)), url('../assets/hero.png'); /* Gradient overlay */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    margin-top: -21px;
+    justify-content: center;
+
+}
+
+.hero-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+    font-size: 55px;
+    font-weight: 800;
+    max-width: 520px;
+    margin-top: 170px;
+    margin-left: 450px;
+    text-shadow: 1px 1px 10px black;
+    line-height: .8;
+
+}
+
+.hero-button {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(183,0,19,1);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 24px;
+    max-width: 150px;
+    margin-top: 290px;
+    margin-left: 450px;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adds smooth transition */
+}
+
+.hero-button:hover {
+    transform: scale(1.1); /* Makes the button grow slightly */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Adds stronger shadow effect */
+}

@@ -1,0 +1,206 @@
+.title {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 800;
+    max-width: 680px;
+    margin-top: 95px;
+    margin-left: 100px;
+    text-shadow: 1px 1px 10px black;
+    line-height: 0.8;
+    display: flex;
+}
+
+.buttons {
+    margin-top: 670px;
+    margin-left: 85px;
+    max-width: 630px;
+    display: flex;
+    gap: 30px; /* Space between buttons */
+}
+
+.buttons button {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 3px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.3s ease; /* Smooth transition effect for hover animation */
+}
+
+/* Hover Animation */
+.buttons button:hover {
+    transform: scale(1.1); /* Slightly enlarge the button */
+    color: #000000;
+    background-color: #ffff; /* Change background color */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+}
+
+/* Optional Bounce Animation */
+.buttons button:active {
+    animation: bounce 0s; /* Apply bounce animation when button is clicked */
+}
+
+/* Bounce Animation Keyframes */
+@keyframes bounce {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.map{
+    text-align: center;
+    margin-top: 155px;
+    margin-left:150px;
+    display: flex;
+    border-radius: 1200px;
+
+}
+
+.map-box{
+    height: auto;
+    width: auto;
+    background-color: white;
+  
+    padding-right: 450px;
+    padding-top: 450px;
+    margin-top: 155px;
+    margin-left: 900px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.coverup{
+    height: 30px;
+    max-width: 10px;
+    background-color:#B71313;
+    padding-right: 40px;
+    padding-top: 50px;
+    margin-top: 155px;
+    margin-left: 810px;
+
+}
+.coverup1{
+    height: 50px;
+    max-width: 50px;
+    background-color: #B71313;
+    padding-right: 80px;
+    padding-top: 80px;
+    margin-top: 155px;
+    margin-left: 1px;
+
+}
+.coverup2{
+    height: 50px;
+    max-width: 50px;
+    background-color: #B71313;
+    padding-right: 10px;
+    padding-top: 80px;
+    margin-top: 155px;
+    margin-left: 1660px;
+
+}
+
+.live-update-box {
+    height: 155px;
+    width: 200px;
+    background-color: white;
+    padding: 235px 235px;
+    margin-top: 155px;
+    margin-left: 950px;
+    border-radius: 20px;
+    display: flex;
+}
+
+
+/* Keyframes for the blinking effect */
+
+.level-1{
+    margin-top: 280px;
+    margin-left: 910px;
+    color: white;
+    background: #28A745;
+    border-radius: 5px;
+    gap: 2 px;
+
+}
+.level-2{
+    margin-top: 280px;
+    margin-left: 8px;
+    color: white;
+    background: #7DCE13;
+    border-radius: 5px;
+    gap: 2 px;
+
+}
+.level-3{
+    margin-top: 280px;
+    margin-left: 8px;
+    color: white;
+    background: #FFC107;
+    border-radius: 5px;
+    gap: 4 px;
+
+}
+.level-4{
+    margin-top: 280px;
+    margin-left: 8px;
+    color: white;
+    background: #FD7E14;
+    border-radius: 5px;
+    gap: 5 px;
+
+}
+.level-5{
+    margin-top: 280px;
+    margin-left: 8px;
+    margin-right:150px;
+    color: white;
+    background: #DC3545;
+    border-radius: 5px;
+    gap: 1 px;
+
+}
+
+
+.parkingarea{
+    margin-top: 165px;
+    margin-left: 970px;
+    max-width: 600px;
+    max-height: 600px; 
+    background-color: white;
+    padding: 200px 150px;
+    border-radius: 20px;
+    text-align:end;
+    
+
+}   
+.parkingarea h2{
+    max-width: auto;
+}
+
+.parkingarea button{
+    margin-top: 295px;
+    padding: 10px ;
+    
+
+    
+}
+
+.level-1:hover,
+.level-2:hover,
+.level-3:hover,
+.level-4:hover,
+.level-5:hover {
+    opacity: 0.9;
+}
+
